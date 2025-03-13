@@ -20,6 +20,74 @@ Veronica Chung - [GitHub](https://github.com/chung-v)
 
 # Application Setup
 
+## Front End
+
+1. Clone the repository.
+
+```
+git@github.com:Plate-Tonic/client.git
+cd client
+```
+
+2. Create your `.env` file in the root directory.
+
+```
+VITE_AUTH_API_URL="your-backend-api-url"
+```
+
+3. Install dependencies.
+
+```
+npm install
+```
+
+4. Run the application.
+
+```
+npm run dev
+```
+
+## Back End
+
+1. Clone the repository.
+
+```
+git@github.com:Plate-Tonic/server.git
+cd server
+```
+
+2. Create your `.env` file in the root directory.
+
+```
+PORT="your-port"
+DATABASE_URL="your-database-url"
+JWT_SECRET="your-secret-key"
+```
+
+3. Start MongoDB.
+
+```
+sudo systemctl start mongod
+```
+
+4. Install dependencies.
+
+```
+npm install
+```
+
+5. Seed data into the database.
+
+```
+npm run seed
+```
+
+6. Run the application.
+
+```
+npm run dev
+```
+
 # Testing
 
 ## Front End - Vitest
