@@ -18,6 +18,18 @@ Veronica Chung - [GitHub](https://github.com/chung-v)
 
 - Back End: [Plate-Tonic/server](https://github.com/Plate-Tonic/server)
 
+# Application Setup
+
+# Testing
+
+## Front End
+
+## Back End
+
+# Project Management
+
+# PlateTonic T3A2-A Contents
+
 # R1 Description of your website, including purpose, functionality / features, target audience and tech stack
 
 ## Purpose
