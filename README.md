@@ -76,17 +76,44 @@ The following dataflow diagrams are structured across multiple levels to progres
 
 ## Level 0 - Context Diagram
 
-![Context Diagram](./docs/part-a/DFD/DFD_ContextDiagram.png)
+<details>
+  <summary>Click to expand - Initial Diagram</summary>
+
+![Old Context Diagram](./docs/part-a/DFD/DFD_ContextDiagram.png)
+
+</details>
+
+#### Updated Diagram
+
+![New Context Diagram](./docs/part-b/DFD/DFD_NewContextDiagram.png)
 
 ## Level 1 - Main Processes
 
 ### General User Dataflow Diagram
 
-![User Dataflow Diagram](./docs/part-a/DFD/DFD_User.png)
+<details>
+  <summary>Click to expand - Initial Diagram</summary>
+
+![Old User Dataflow Diagram](./docs/part-a/DFD/DFD_User.png)
+
+</details>
+
+#### Updated Diagram
+
+![New User Dataflow Diagram](./docs/part-b/DFD/DFD_NewUser.png)
 
 ### Admin User Dataflow Diagram
 
-![Admin Dataflow Diagram](./docs/part-a/DFD/DFD_Admin.png)
+<details>
+  <summary>Click to expand - Initial Diagram</summary>
+
+![Old Admin Dataflow Diagram](./docs/part-a/DFD/DFD_Admin.png)
+
+</details>
+
+#### Updated Diagram
+
+![New Admin Dataflow Diagram](./docs/part-b/DFD/DFD_NewAdmin.png)
 
 ## Level 2 - Sub-Processes
 
@@ -96,11 +123,25 @@ The following dataflow diagrams are structured across multiple levels to progres
 
 ### Subscription Payment Dataflow Diagram
 
+<details>
+  <summary>Click to expand - Initial Diagram</summary>
+
 ![Payment Dataflow Diagram](./docs/part-a/DFD/DFD_Payment.png)
+
+</details>
 
 # R3 Application Architecture Diagram
 
-![Application Architecture Diagram](./docs/part-a/AAD/AAD.png)
+<details>
+  <summary>Click to expand - Initial Diagram</summary>
+
+![Old Application Architecture Diagram](./docs/part-a/AAD/AAD.png)
+
+</details>
+
+#### Updated Diagram
+
+![New Application Architecture Diagram](./docs/part-b/AAD/AAD_New.png)
 
 ## Frontend
 
