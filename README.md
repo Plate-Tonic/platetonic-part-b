@@ -6,6 +6,18 @@ Van Nguyen - [GitHub](https://github.com/montsieur)
 
 Veronica Chung - [GitHub](https://github.com/chung-v)
 
+### Deployed Application
+
+- Front End:
+
+- Back End: [https://platetonic.onrender.com](https://platetonic.onrender.com)
+
+### Repositories
+
+- Front End: [Plate-Tonic/client](https://github.com/Plate-Tonic/client)
+
+- Back End: [Plate-Tonic/server](https://github.com/Plate-Tonic/server)
+
 # R1 Description of your website, including purpose, functionality / features, target audience and tech stack
 
 ## Purpose
