@@ -22,9 +22,120 @@ Veronica Chung - [GitHub](https://github.com/chung-v)
 
 # Testing
 
-## Front End
+## Front End - Vitest
 
-## Back End
+### Coverage
+
+![Front end testing coverage - 1](./docs/part-b/Testing/Frontend_01_allfiles.JPG)
+
+![Front end testing coverage - 2](./docs/part-b/Testing/Frontend_02_amountoftest.JPG)
+
+### src
+
+<details>
+  <summary>Click to expand - Testing performed in src</summary>
+
+![Front end testing coverage - src](./docs/part-b/Testing/Frontend_03_srcfolder.JPG)
+
+</details>
+
+### src/components
+
+<details>
+  <summary>Click to expand - Testing performed in src/components</summary>
+
+![Front end testing coverage - src/components](./docs/part-b/Testing/Frontend_04_components.JPG)
+
+</details>
+
+### src/contexts
+
+<details>
+  <summary>Click to expand - Testing performed in src/contexts</summary>
+
+![Front end testing coverage - src/context](./docs/part-b/Testing/Frontend_05_context.JPG)
+
+</details>
+
+### src/pages
+
+<details>
+  <summary>Click to expand - Testing performed in src/pages</summary>
+
+![Front end testing coverage - src/pages](./docs/part-b/Testing/Frontend_06_pages.JPG)
+
+</details>
+
+## Back End - Jest/Supertest
+
+### Coverage
+
+![Back end testing coverage](./docs/part-b/Testing/Backend_01_Coverage.png)
+
+### src
+
+<details>
+  <summary>Click to expand - Testing performed in src</summary>
+
+![Back end testing - src/index.js](./docs/part-b/Testing/Backend_02_Index.png)
+
+![Back end testing - src/server.js](./docs/part-b/Testing/Backend_03_Server.png)
+
+</details>
+
+### src/controllers
+
+<details>
+  <summary>Click to expand - Testing performed in src/controllers</summary>
+
+![Back end testing - src/controller/AuthController.js](./docs/part-b/Testing/Backend_04_AuthController.png)
+
+![Back end testing - src/controller/BlogPostController.js](./docs/part-b/Testing/Backend_05_BlogPostController.png)
+
+![Back end testing - src/controller/MealPlanController.js](./docs/part-b/Testing/Backend_06_MealPlanController.png)
+
+![Back end testing - src/controller/UserController.js](./docs/part-b/Testing/Backend_07_UserController.png)
+
+</details>
+
+### src/middlewares
+
+<details>
+  <summary>Click to expand - Testing performed in src/middlewares</summary>
+
+![Back end testing - src/middlewares/authMiddleware.js](./docs/part-b/Testing/Backend_08_AuthMiddleware.png)
+
+</details>
+
+### src/models
+
+<details>
+  <summary>Click to expand - Testing performed in src/models</summary>
+
+![Back end testing - src/models/BlogPostModel.js](./docs/part-b/Testing/Backend_09_BlogPostModel.png)
+
+![Back end testing - src/models/MealPlanModel.js](./docs/part-b/Testing/Backend_10_MealPlanModel.png)
+
+![Back end testing - src/models/UserModel.js](./docs/part-b/Testing/Backend_11_UserModel.png)
+
+</details>
+
+### src/utils
+
+<details>
+  <summary>Click to expand - Testing performed in src/utils</summary>
+
+![Back end testing - src/utils/calculator.js](./docs/part-b/Testing/Backend_12_Calculator.png)
+
+![Back end testing - src/utils/database.js](./docs/part-b/Testing/Backend_13_Database.png)
+
+![Back end testing - src/utils/dropping.js](./docs/part-b/Testing/Backend_14_Dropping.png)
+
+![Back end testing - src/utils/securityQuestions.js](./docs/part-b/Testing/Backend_15_SecurityQuestions.png)
+
+![Back end testing - src/utils/seeding.js](./docs/part-b/Testing/Backend_16_Seeding.png)
+
+</details>
 
 # Project Management
 
