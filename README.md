@@ -207,7 +207,8 @@ npm run dev
 
 # Production Testing
 
-### Homepage 
+### Homepage
+
 <details> 
 <summary>Click to expand - Homepage renders successfully</summary>
 
@@ -222,7 +223,8 @@ npm run dev
 
 </details>
 
-### Get Started Page 
+### Get Started Page
+
 When User uses the TDEE Calculator to calculate their macronutrition.
 
 <details> 
@@ -261,12 +263,13 @@ When User uses the TDEE Calculator to calculate their macronutrition.
 </details>
 
 ### Menu Page
+
 Users are able to view the Menu Page to select, remove and view meals by clicking on the button, name or image. They are also able to dynamically see the changes to their required/intake macros.
 
 <details>
 <summary>Click to expand - Shows default state values if User does not use Get Started</summary>
 
-![Production Testing - Menu](./docs/part-b/Testing/production/menu/01_menu_test_default(nodetails).png)
+![Production Testing - Menu](<./docs/part-b/Testing/production/menu/01_menu_test_default(nodetails).png>)
 
 </details>
 
@@ -294,21 +297,21 @@ Users are able to view the Menu Page to select, remove and view meals by clickin
 <details>
 <summary>Click to expand - Display's User (non-admin) their requirement and intake (No Meals)</summary>
 
-![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin).png)
+![Production Testing - Menu](<./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin).png>)
 
 </details>
 
 <details>
 <summary>Click to expand - Displays User's requirement and Current Intake based on Meal selection</summary>
 
-![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_selectedmeals.png)
+![Production Testing - Menu](<./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_selectedmeals.png>)
 
 </details>
 
 <details>
 <summary>Click to expand - Display's new User calorie requirement after using TDEE calculator again</summary>
 
-![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_updatedcalories.png)
+![Production Testing - Menu](<./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_updatedcalories.png>)
 
 </details>
 
@@ -316,20 +319,22 @@ Users are able to view the Menu Page to select, remove and view meals by clickin
 <summary>Click to expand - Add New Meal Button rendered when 'Admin' user logs in (validated)</summary>
 
 ![Production Testing - Menu](./docs/part-b/Testing/production/menu/05_menu_test_adminuser.png)
+
 </details>
 
-### Meal Detail Page 
+### Meal Detail Page
+
 <details> 
 <summary>Click to expand - Meal Detail Page Renders (For Non-Users and Not Admin Users)</summary>
 
 ![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/01_mealdetail_test_loaded.png)
 
-</details> 
+</details>
 
 <details>
 <summary>Click to expand - Remove Button Renders if User is Admin</summary>
 
-![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/02_mealdetail_test_loaded(admin).png)
+![Production Testing - Meal Detail](<./docs/part-b/Testing/production/mealdetail/02_mealdetail_test_loaded(admin).png>)
 
 </details>
 
@@ -348,6 +353,7 @@ Users are able to view the Menu Page to select, remove and view meals by clickin
 </details>
 
 ### Add New Meal Page
+
 Admin Users have permission to Add New Meal into the database.
 
 <details> 
@@ -428,6 +434,7 @@ Admin Users have permission to Add New Meal into the database.
 </details>
 
 ### About Page
+
 User can view the About Page.
 
 <details> 
@@ -438,6 +445,7 @@ User can view the About Page.
 </details>
 
 ### Blog Page
+
 User can view blog posts & filter blogs to show selected.
 
 <details> 
@@ -468,8 +476,8 @@ User can view blog posts & filter blogs to show selected.
 
 </details>
 
-
 ### Blog Detail Page
+
 Users are able to view blog posts. Shown differently depends on Admin/Non-Admin.
 
 <details> 
@@ -500,8 +508,8 @@ Users are able to view blog posts. Shown differently depends on Admin/Non-Admin.
 
 </details>
 
-
 ### Add New Blog Page
+
 Admin Users have permission to Add New Blog.
 
 <details> 
@@ -547,6 +555,7 @@ Admin Users have permission to Add New Blog.
 </details>
 
 ### Contact Page
+
 User to input their queries successfully unless:
 
 <details> 
@@ -585,6 +594,7 @@ User to input their queries successfully unless:
 </details>
 
 ### Login Page
+
 Directs to User Dashboard upon success. Otherwise:
 
 <details> 
@@ -608,8 +618,8 @@ Directs to User Dashboard upon success. Otherwise:
 
 </details>
 
-
 ### Forget Password Page
+
 Users can reset their password. Upon success, redirects user back to Login page to try again.
 
 <details> 
@@ -662,7 +672,8 @@ Users can reset their password. Upon success, redirects user back to Login page 
 </details>
 
 ### Sign Up Page
-New User's are able to create an account to access their Dashboard to better track their needs. 
+
+New User's are able to create an account to access their Dashboard to better track their needs.
 
 <details> 
 <summary>Click to expand - Error; Missing Name Input</summary>
@@ -764,6 +775,7 @@ New User's are able to create an account to access their Dashboard to better tra
 </details>
 
 ### Dashboard
+
 After logging in, Users can track their details in their dashboard fetched from the database, selecting different tabs to navigate.
 
 <details> 
@@ -854,8 +866,8 @@ After logging in, Users can track their details in their dashboard fetched from 
 
 </details>
 
-
 ### Terms & Conditions Page
+
 <details> 
 <summary>Click to expand - Terms & Conditions Page renders successfully</summary>
 
@@ -1298,6 +1310,14 @@ Trello has been used as the primary project management tool to track progress an
 ## 21 February
 
 Cards have been created, incorporating checklists outlining the necessary files for operating the application.
+
+#### Task delegation:
+
+- **Stripe research** - Van
+- **Image upload research** - Veronica
+- **Front end** - Van
+- **Back end** - Veronica
+- **Application deployment** - Veronica
 
 ![Trello board on 21/02/25](./docs/part-b/Trello/Trello_01_2102.png)
 
