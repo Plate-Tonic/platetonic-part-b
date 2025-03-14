@@ -324,7 +324,7 @@ Provides blogs, recipes, and tips to promote healthy eating habits.
 
 ### Authentication
 
-- JWT for user login and subscriptions
+- JWT for user login~~ and subscriptions~~
 
 ### Hosting
 
@@ -386,7 +386,7 @@ The following dataflow diagrams are structured across multiple levels to progres
 
 ![User Registration & Login Dataflow Diagram](./docs/part-a/DFD/DFD_RegistrationLogin.png)
 
-### Subscription Payment Dataflow Diagram
+### ~~Subscription Payment Dataflow Diagram~~
 
 <details>
   <summary>Click to expand - Initial Diagram</summary>
@@ -421,7 +421,7 @@ HTML provides the structure of web pages. CSS is used for styling, layout, and r
 React manages the dynamic components:
 
 - **Registration and login**.
-- **User dashboard** - Displays user data, meal plans, and subscription details.
+- **User dashboard** - Displays user data, meal plans~~, and subscription details.~~
 - **TDEE calculator and calorie/macronutrient tracker** - Tracks calorie and macronutrient intake.
 - **Meal plan menu** - Displays available meal plans.
 - ~~**Subscription plan menu** - Handles plan selection and management.~~
@@ -636,7 +636,7 @@ The purpose of the user dashboard is to allow the user to navigate through their
 
 The key features will include:
 
-- **Buttons**: This will allow the user to navigate between the following options such as clicking on subscription to view it in the content next to it (on the right).
+- **Buttons**: This will allow the user to navigate between the following options such as clicking on Current Meals to view it in the content next to it (on the right).
 - **Information Box**: A windowed area next to the button navigations will show the user relevant information to what they have clicked on
   - For example, clicking on Current Meals after viewing their personal details will change the window to show the user their current meal plan.
 
