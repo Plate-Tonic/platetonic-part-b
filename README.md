@@ -207,6 +207,68 @@ npm run dev
 
 # Project Management
 
+Trello has been used as the primary project management tool to track progress and ensure deadlines have been met. A structured board has been established with lists representing different project phases:
+
+- **To Do** - Pending tasks.
+- **Doing** - Tasks in progress.
+- **Review** - Completed tasks awaiting feedback.
+- **Done** - Approved and finalised tasks.
+
+## 21 February
+
+Cards have been created, incorporating checklists outlining the necessary files for operating the application.
+
+![Trello board on 21/02/25](./docs/part-b/Trello/Trello_01_2102.png)
+
+![Trello board on 21/02/25](./docs/part-b/Trello/Trello_02_2102.png)
+![Trello board on 21/02/25](./docs/part-b/Trello/Trello_03_2102.png)
+![Trello board on 21/02/25](./docs/part-b/Trello/Trello_04_2102.png)
+![Trello board on 21/02/25](./docs/part-b/Trello/Trello_05_2102.png)
+
+## 28 February
+
+The primary objective for the week has been to conduct research on implementing Stripe and facilitating image uploads without relying on third-party services.
+
+Adjustments have been made to the "Middlewares" checklist to enhance the efficiency of the image upload process.
+
+![Trello board on 28/02/25](./docs/part-b/Trello/Trello_07_2802.png)
+
+### Screenshot of Progress
+
+![Trello board on 28/02/25](./docs/part-b/Trello/Trello_06_2802.png)
+
+## 7 March
+
+Each team member has concentrated on either the front end or back end development. Due to time constraints, the subscription feature has been designated as a stretch goal.
+
+#### Front end
+
+- Removed subscription options page and style.
+- Removed checkout page and style.
+- Removed payment page and style.
+- Added forgot password page and style.
+
+#### Back end
+
+- Removed subscription model, controller and route.
+- Removed order model, controller and route.
+- Separated user registration and login functions to `AuthController` and `AuthRoutes`.
+- Added security questions as a `utils` file to improve modularity.
+
+### Screenshot of Progress
+
+![Trello board on 07/03/25](./docs/part-b/Trello/Trello_08_0703.png)
+
+![Trello board on 07/03/25](./docs/part-b/Trello/Trello_09_0703.png)
+
+## 14 March
+
+The subscription feature could not be implemented. However, all other tasks have been successfully completed, reviewed, and documented in the README file within the repository.
+
+### Screenshot of Progress
+
+![Trello board on 14/03/25](docs/part-b/Trello/Trello_10_1403.png)
+
 # PlateTonic T3A2-A Contents
 
 # R1 Description of your website, including purpose, functionality / features, target audience and tech stack
