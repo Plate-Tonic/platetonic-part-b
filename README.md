@@ -88,6 +88,29 @@ npm run seed
 npm run dev
 ```
 
+## Login Credentials
+
+- Admin access
+
+```
+Email: admin@platetonic.com
+Password: admintest
+```
+
+- User 1 access
+
+```
+Email: lily@example.com
+Password: lilyuser
+```
+
+- User 2 access
+
+```
+Email: james@example.com
+Password: jamesuser
+```
+
 # Testing
 
 ## Front End - Vitest
