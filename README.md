@@ -8,7 +8,7 @@ Veronica Chung - [GitHub](https://github.com/chung-v)
 
 ### Deployed Application
 
-- Front End:
+- Front End:[https://platetonic.netlify.app](https://platetonic.netlify.app/)
 
 - Back End: [https://platetonic.onrender.com](https://platetonic.onrender.com)
 
