@@ -8,7 +8,7 @@ Veronica Chung - [GitHub](https://github.com/chung-v)
 
 ### Deployed Application
 
-- Front End:[https://platetonic.netlify.app](https://platetonic.netlify.app/)
+- Front End: [https://platetonic.netlify.app](https://platetonic.netlify.app/)
 
 - Back End: [https://platetonic.onrender.com](https://platetonic.onrender.com)
 
@@ -275,7 +275,7 @@ The subscription feature could not be implemented. However, all other tasks have
 
 ## Purpose
 
-Plate Tonic is an innovative meal prep service designed to help individuals manage their weight effectively. It offers calorie and macronutrient tracking, personalised meal plans, and educational resources to support weight loss, maintenance, or muscle gain.
+Plate Tonic is an innovative meal prep service designed to help individuals manage their weight effectively. It offers calorie and macronutrient tracking, ~~personalised~~ meal plans, and educational resources to support weight loss, maintenance, or muscle gain.
 
 ## Functionality / Features
 
@@ -289,11 +289,11 @@ Monitors calorie and macronutrient intake to ensure users stay on track with the
 
 ### Personalised Meal Plans
 
-Allows users to input their dietary preferences and goals to receive customised meal plans.
+Allows users to input their dietary preferences and goals to receive ~~customised~~ meal plans.
 
-### Subscription Models
+### ~~Subscription Models~~
 
-Offers flexible weekly and monthly subscription plans for meal deliveries.
+~~Offers flexible weekly and monthly subscription plans for meal deliveries.~~
 
 ### Educational Content
 
@@ -424,7 +424,7 @@ React manages the dynamic components:
 - **User dashboard** - Displays user data, meal plans, and subscription details.
 - **TDEE calculator and calorie/macronutrient tracker** - Tracks calorie and macronutrient intake.
 - **Meal plan menu** - Displays available meal plans.
-- **Subscription plan menu** - Handles plan selection and management.
+- ~~**Subscription plan menu** - Handles plan selection and management.~~
 - **Blog posts** - Displays health and nutrition articles.
 
 ## Backend
@@ -436,9 +436,9 @@ Built using Node.js and Express.js, the backend handles business logic, data pro
 Key components include:
 
 - **Authentication service** - Manages user login and registration using JWT authentication.
-- Calorie and macronutrient tracker - Monitors and stores user calorie and macronutrient intake.
+- **Calorie and macronutrient tracker** - Monitors and stores user calorie and macronutrient intake.
 - **Meal plan service** - Fetches and stores personalised meal plans based on user preferences.
-- **Subscription service** - Handles user subscriptions and integrates with **Stripe** for payment processing.
+- ~~**Subscription service** - Handles user subscriptions and integrates with **Stripe** for payment processing.~~
 - **Blog service** - Manages blog content, including creation, updates, and retrieval.
 
 ### Mongoose
@@ -455,21 +455,21 @@ The application uses MongoDB to store:
 
 - **User data** - Account details, macro tracking, dietary preferences, and payment records.
 - **Meal plan data** - Tailored meal plans based on user preferences and goals.
-- **Subscription data** - User subscription details, including plan type and payment status.
+- ~~**Subscription data** - User subscription details, including plan type and payment status.~~
 - **Blog data** - Health and nutrition articles.
 
-## Third Party APIs
+## ~~Third Party APIs~~
 
-### Stripe
+### ~~Stripe~~
 
-Stripe is integrated as the payment gateway to handle subscriptions and payments securely.
+~~Stripe is integrated as the payment gateway to handle subscriptions and payments securely.~~
 
-The process involves:
+~~The process involves:~~
 
-1. **Frontend** - Provides a payment form where users enter card details. **Stripe.js** securely tokenises the card information and sends it to Stripe’s servers.
-2. **Backend** - Communicates with Stripe’s API using a **secret key** to create a payment intent and process transactions.
-3. **Webhooks** - Stripe webhooks are used to handle payment events (e.g. successful payments, subscription cancellations) and update the database accordingly.
-4. **Database** - Payment status and subscription details are stored in MongoDB.
+1. ~~**Frontend** - Provides a payment form where users enter card details. **Stripe.js** securely tokenises the card information and sends it to Stripe’s servers.~~
+2. ~~**Backend** - Communicates with Stripe’s API using a **secret key** to create a payment intent and process transactions.~~
+3. ~~**Webhooks** - Stripe webhooks are used to handle payment events (e.g. successful payments, subscription cancellations) and update the database accordingly.~~
+4. ~~**Database** - Payment status and subscription details are stored in MongoDB.~~
 
 # R4 User Stories
 
@@ -489,7 +489,7 @@ The process involves:
 
 ### User Stories
 
-"As a professional who works long hours, I want a meal prep service that offers healthy, ready-to-eat meals, so I can maintain a balanced diet despite my demanding schedule."
+"As a professional who works long hours, I want a meal prep service that offers healthy, ~~ready-to-eat~~ meals, so I can maintain a balanced diet despite my demanding schedule."
 
 "As someone with limited nutrition knowledge, I want access to meal plans that are designed for weight management, so I can make better food choices without extensive research."
 
@@ -608,7 +608,7 @@ The registration page is accessed from the login page once the user has clicked 
 
 The key features will include:
 
-- **Fill Text**: Allows the user to enter their email address, password, first and last name.
+- **Fill Text**: Allows the user to enter their name, email address and password.
 - **Submit button**: Will allow user to submit their details to create an account if email address is not in use.
 - **Hyperlink**: If a user has an account already or notices that the email address has been used already, they can redirect themselves to the login page to attempt to log in or direct themselves to the forgot password page.
 
@@ -632,13 +632,13 @@ The key features will include:
 
 ## 5. User Dashboard Page
 
-The purpose of the user dashboard is to allow the user to navigate through their account and access certain features that are available to them such as managing subscriptions, viewing their current meal plan, tracking their calories and macros or to update/view their personal details.
+The purpose of the user dashboard is to allow the user to navigate through their account and access certain features that are available to them such as ~~managing subscriptions,~~ viewing their current meal plan, tracking their calories and macros or to update/view their personal details.
 
 The key features will include:
 
 - **Buttons**: This will allow the user to navigate between the following options such as clicking on subscription to view it in the content next to it (on the right).
 - **Information Box**: A windowed area next to the button navigations will show the user relevant information to what they have clicked on
-  - For example, clicking on Subscription after viewing their personal details will change the window to show the user their current subscription.
+  - For example, clicking on Current Meals after viewing their personal details will change the window to show the user their current meal plan.
 
 ### Wireframe
 
@@ -687,19 +687,19 @@ The key features will include:
 
 </details>
 
-## 7. Subscription Page
+## ~~7. Subscription Page~~
 
-The subscription page allows user's to opted in to Plate Tonic's services so they are able gain access to specific features such as choosing/ordering their meals for their meal plan.
+~~The subscription page allows user's to opted in to Plate Tonic's services so they are able gain access to specific features such as choosing/ordering their meals for their meal plan.~~
 
-The key features will include:
+~~The key features will include:~~
 
-- **Buttons**: This allows users to choose from the following options that suits their needs.
-  - For example, user can choose between a weekly or monthly subscription. By choosing a monthly subscription, it can be slightly cheaper allowing the user to save on expense.
-- **Fill Text**: An area for the user to enter their details such as postal address.
-- **Drop down Menu**: This area will allow the user to choose from the following payment methods to purchase the subscription.
-- **Information box**: This will show the user the summary of their chosen options and pricing before hitting the submit button below.
+- ~~**Buttons**: This allows users to choose from the following options that suits their needs.~~
+  - ~~For example, user can choose between a weekly or monthly subscription. By choosing a monthly subscription, it can be slightly cheaper allowing the user to save on expense.~~
+- ~~**Fill Text**: An area for the user to enter their details such as postal address.~~
+- ~~**Drop down Menu**: This area will allow the user to choose from the following payment methods to purchase the subscription.~~
+- ~~**Information box**: This will show the user the summary of their chosen options and pricing before hitting the submit button below.~~
 
-### Wireframe
+### ~~Wireframe~~
 
 <details>
   <summary>Click to expand - Subscription Page</summary>
@@ -708,7 +708,7 @@ The key features will include:
 
 </details>
 
-### Detailed Wireframe
+### ~~Detailed Wireframe~~
 
 <details>
   <summary>Click to expand - Subscription Page</summary>
@@ -719,7 +719,7 @@ The key features will include:
 
 ## 8. Menu Page
 
-The menu page is for the user to see what meals are available to choose from before they subscribe to the services or to choose their meals if they are already using the service.
+The menu page is for the user to see what meals are available to choose from ~~before they subscribe to the services or to choose their meals if they are already using the service~~.
 
 The key features will include:
 
@@ -745,16 +745,16 @@ The key features will include:
 
 </details>
 
-## 9. Payment Page
+## ~~9. Payment Page~~
 
-The payment page is the final page after submitting the details from the Subscription Page. Here the user is able to enter their payment details and finalize their purchases
+~~The payment page is the final page after submitting the details from the Subscription Page. Here the user is able to enter their payment details and finalize their purchases~~
 
-The key feature will include:
+~~The key feature will include:~~
 
-- **Fill Text**: This area is for the user to enter their billing details and payment method details.
-- **Button**: For user to submit and finalize their purchase.
+- ~~**Fill Text**: This area is for the user to enter their billing details and payment method details.~~
+- ~~**Button**: For user to submit and finalize their purchase.~~
 
-### Wireframe
+### ~~Wireframe~~
 
 <details>
   <summary>Click to expand - Payment Page</summary>
@@ -763,7 +763,7 @@ The key feature will include:
 
 </details>
 
-### Detailed Wireframe
+### ~~Detailed Wireframe~~
 
 <details>
   <summary>Click to expand - Payment Page</summary>
