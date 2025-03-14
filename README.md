@@ -205,6 +205,1087 @@ npm run dev
 
 </details>
 
+# Production Testing
+
+### Homepage 
+<details> 
+<summary>Click to expand - Homepage renders successfully</summary>
+
+![Production Testing - Homepage](./docs/part-b/Testing/production/homepage/01_homepage_test.png)
+
+</details>
+
+<details>
+<summary>Click to expand - When user refreshes the page, three meals will be randomly generated from the database and rendered</summary>
+
+![Production Testing - Homepage](./docs/part-b/Testing/production/homepage/02_homepage_test_randomized.png)
+
+</details>
+
+### Get Started Page 
+When User uses the TDEE Calculator to calculate their macronutrition.
+
+<details> 
+<summary>Click to expand - When User Successfully Enters their Details</summary>
+
+![Production Testing - Get Started](./docs/part-b/Testing/production/getstarted/01_getstarted_test.png)
+
+</details>
+
+<details> 
+<summary>Click to expand - Modal appears when User clicks on 'Calculate TDEE & Macros' on success</summary>
+
+![Production Testing - Get Started](./docs/part-b/Testing/production/getstarted/modal.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; User does not enter their age</summary>
+
+![Production Testing - Get Started](./docs/part-b/Testing/production/getstarted/04_getstarted_test_invalidage.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; User does not enter their weight</summary>
+
+![Production Testing - Get Started](./docs/part-b/Testing/production/getstarted/03_getstarted_test_invalidweight.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; User does not enter their height</summary>
+
+![Production Testing - Get Started](./docs/part-b/Testing/production/getstarted/02_getstarted_test_invalidheight.png)
+
+</details>
+
+### Menu Page
+Users are able to view the Menu Page to select, remove and view meals by clicking on the button, name or image. They are also able to dynamically see the changes to their required/intake macros.
+
+<details>
+<summary>Click to expand - Shows default state values if User does not use Get Started</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/01_menu_test_default(nodetails).png)
+
+</details>
+
+<details>
+<summary>Click to expand - Shows values after User uses Get Started and/or redirected from page</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/02_menu_test_aftermacro.png)
+
+</details>
+
+<details>
+<summary>Click to expand - User selects one filter</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/03_menu_test_onefilter.png)
+
+</details>
+
+<details>
+<summary>Click to expand - User selects two filter</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/03.1_menu_test_twofilter.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Display's User (non-admin) their requirement and intake (No Meals)</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin).png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays User's requirement and Current Intake based on Meal selection</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_selectedmeals.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Display's new User calorie requirement after using TDEE calculator again</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/04_menu_test_user(notadmin)_updatedcalories.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Add New Meal Button rendered when 'Admin' user logs in (validated)</summary>
+
+![Production Testing - Menu](./docs/part-b/Testing/production/menu/05_menu_test_adminuser.png)
+</details>
+
+### Meal Detail Page 
+<details> 
+<summary>Click to expand - Meal Detail Page Renders (For Non-Users and Not Admin Users)</summary>
+
+![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/01_mealdetail_test_loaded.png)
+
+</details> 
+
+<details>
+<summary>Click to expand - Remove Button Renders if User is Admin</summary>
+
+![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/02_mealdetail_test_loaded(admin).png)
+
+</details>
+
+<details>
+<summary>Click to expand - Modal Appear when Remove Button is clicked to confirm</summary>
+
+![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/03_mealdetail_test_modalconfirm.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Meal has been successfully removed from database</summary>
+
+![Production Testing - Meal Detail](./docs/part-b/Testing/production/mealdetail/mealremoved.JPG)
+
+</details>
+
+### Add New Meal Page
+Admin Users have permission to Add New Meal into the database.
+
+<details> 
+<summary>Click to expand - Error; No Name input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/01_addmealdetail_test_noname.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Description input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/02_addmealdetail_test_nodescription.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Ingredients input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/03_addmealdetail_test_noingredients.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Calorie Value input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/04_addmealdetail_test_nocalories.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Protein Value Input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/05_addmealdetail_test_noprotein.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Fats Value Input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/06_addmealdetail_test_nofats.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Carbs Value Input</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/07_addmealdetail_test_nocarbs.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Image Selected</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/08_addmealdetail_test_noimage.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Filter Selected</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/invalidfilter.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Notification when Meal has been added successfully into database</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/mealadded.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Admin is redirected to Menu Page, showing new Meal in the page</summary>
+
+![Production Testing - Add New Meal](./docs/part-b/Testing/production/addnewmeal/mealadded.png)
+
+</details>
+
+### About Page
+User can view the About Page.
+
+<details> 
+<summary>Click to expand - About Page rendered successfully</summary>
+
+![Production Testing - About](./docs/part-b/Testing/production/about/01_about_test.png)
+
+</details>
+
+### Blog Page
+User can view blog posts & filter blogs to show selected.
+
+<details> 
+<summary>Click to expand - Blog page renders successfully (Non-User & User(Not Admin))</summary>
+
+![Production Testing - Blog](./docs/part-b/Testing/production/blog/01_blog_test.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Add New Blog Button renders when Admin User is logged in</summary>
+
+![Production Testing - Blog](./docs/part-b/Testing/production/blog/01_blog_test_admin.png)
+
+</details>
+
+<details>
+<summary>Click to expand - When User selects one filter</summary>
+
+![Production Testing - Blog](./docs/part-b/Testing/production/blog/02_blog_test_onefilter.png)
+
+</details>
+
+<details>
+<summary>Click to expand - When User selects two filters</summary>
+
+![Production Testing - Blog](./docs/part-b/Testing/production/blog/03_blog_test_twofilter.png)
+
+</details>
+
+
+### Blog Detail Page
+Users are able to view blog posts. Shown differently depends on Admin/Non-Admin.
+
+<details> 
+<summary>Click to expand - Blog Detail Page renders successfully (Non-Users & Users(Not Admin))</summary>
+
+![Production Testing - Blog Detail](./docs/part-b/Testing/production/blogdetail/01_blogdetail_test.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Remove Button renders when Admin is logged in</summary>
+
+![Production Testing - Blog Detail](./docs/part-b/Testing/production/blogdetail/02_blogdetail_admin.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Removal Confirmation modal appears when Admin clicks on Remove Blog</summary>
+
+![Production Testing - Blog Detail](./docs/part-b/Testing/production/blogdetail/02_blogdetail_modal.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Remove Blog Success Notification Pop Up when confirmed</summary>
+
+![Production Testing - Blog Detail](./docs/part-b/Testing/production/blogdetail/blogdetail.JPG)
+
+</details>
+
+
+### Add New Blog Page
+Admin Users have permission to Add New Blog.
+
+<details> 
+<summary>Click to expand - Error; Title input is missing</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/01_addnewblog_test_notitle.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Author input is missing</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/02_addnewblog_test_noauthor.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Content input is missing</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/03_addnewblog_test_nocontent.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; When duplicate titles has been found, cannot create blog post</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/duplicateblog.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Notification of success when all details correct</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/blogadded.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Redirects Admin to Blog Page, showing new blog post</summary>
+
+![Production Testing - Add New Blog](./docs/part-b/Testing/production/addnewblog/addedblog.png)
+
+</details>
+
+### Contact Page
+User to input their queries successfully unless:
+
+<details> 
+<summary>Click to expand - Error; Invalid/Missing Name</summary>
+
+![Production Testing - Contact Us](./docs/part-b/Testing/production/contactus/02_contact_test_invalidname.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Invalid '@' Email Input</summary>
+
+![Production Testing - Contact Us](./docs/part-b/Testing/production/contactus/03_contact_test_invalidemail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Email Input</summary>
+
+![Production Testing - Contact Us](./docs/part-b/Testing/production/contactus/03.1_contact_test_invalidemail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Message Input Found</summary>
+
+![Production Testing - Contact Us](./docs/part-b/Testing/production/contactus/04_contact_test_nomessage.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Success Notification Appears when User has input all boxes</summary>
+
+![Production Testing - Contact Us](./docs/part-b/Testing/production/contactus/succcess.JPG)
+
+</details>
+
+### Login Page
+Directs to User Dashboard upon success. Otherwise:
+
+<details> 
+<summary>Click to expand - When User Email/Password does not match the database</summary>
+
+![Production Testing - Login](./docs/part-b/Testing/production/login/01_login_test_invaliddetails.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Password Input</summary>
+
+![Production Testing - Login](./docs/part-b/Testing/production/login/02_login_test_nopw.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Email Input</summary>
+
+![Production Testing - Login](./docs/part-b/Testing/production/login/03_login_test_nousername.png)
+
+</details>
+
+
+### Forget Password Page
+Users can reset their password. Upon success, redirects user back to Login page to try again.
+
+<details> 
+<summary>Click to expand - Error; Missing Email Input, on success, move to next page</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/01_forgotpw_noemail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Security Answer, on success, move to next page</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/02_forgetpw_noanswer.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Security Answer is incorrect</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/SAnotmatch.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing New Password Input</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/03_forgetpw_missingcurrentpw.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Confirm New Password Input</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/03.1_forgetpw_currentpw.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Passwords do not match</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/pwnomatch.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Success notification if all details correct & redirects user to Login Page</summary>
+
+![Production Testing - Forgot Password](./docs/part-b/Testing/production/forgotpassword/successchangepw.JPG)
+
+</details>
+
+### Sign Up Page
+New User's are able to create an account to access their Dashboard to better track their needs. 
+
+<details> 
+<summary>Click to expand - Error; Missing Name Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/01_signup_noname.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Invalid Email Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/02_signup_invalidemail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Email Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/02_signup_noemail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Password Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/03_signup_nocurrentpw.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Missing Confirm Password Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/04_signup_noconfirmpw.png)
+
+</details>
+
+<details>
+<summary>Click to expand -Error; If Password does not match</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/pwnotmatch.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; No Security Answer Input</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/05_signup_nosqanswer.png)
+
+</details>
+
+<details>
+<summary>Click to expand - User did not check to agree to T&C</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/notac.JPG)
+
+</details>
+
+<br>
+
+**Scenario: If user does not use Get Started Calculator before Registration**
+
+<details>
+<summary>Click to expand - No Personal Detail Data, shows N/A</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/06_brandnewuser.png)
+
+</details>
+
+<details>
+<summary>Click to expand - No Calorie Data, shows 0</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/06.1_brandnewuser.png)
+
+</details>
+
+<details>
+<summary>Click to expand - No Meals Selected, Calculate your Macros appear if no data for User is stored.</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/06.2_brandnewuser.png)
+
+</details>
+
+<br>
+
+**Scenario: If user uses Get Started before Registration (data stored from calculator)**
+
+<details>
+<summary>Click to expand - Shows User using calculator with displayed details</summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/07_nonuser_beforesignup.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Personal Details displayed from results after registration </summary>
+
+![Production Testing - Sign Ups](./docs/part-b/Testing/production/signup/07_nonuser_aftersignup.png)
+
+</details>
+
+### Dashboard
+After logging in, Users can track their details in their dashboard fetched from the database, selecting different tabs to navigate.
+
+<details> 
+<summary>Click to expand - Displays User's Personal Details</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/01_dashboard_test_user.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays User's current calorie requirement and intake</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/02_dashboard_test_calorie.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays User's current meal selection, showing no meals selected currently</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/02_dashboard_test_nomeal.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays and renders the Change Password Section</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/pwsection.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Password must not be the current Password</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/pwisthesame.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; Both Password fields must be inputted</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/bothfieldsrequired.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Error; If User's current Password input is incorrect</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/pwnomatch.JPG)
+
+</details>
+
+<details>
+<summary>Click to expand - Success notification if all details are input correctly</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/pwchangesuccess.JPG)
+
+</details>
+
+<br>
+
+**Scenario: When existing User uses the TDEE calculator to update their details and has chosen meals from the menu page**
+
+<details>
+<summary>Click to expand - Displays updated Personal Details</summary> clicking on image or name of meal will redirect user to the Meal Details Page shown above
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/01_dashboard_test_user_updated.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays Meals selected by User from the Menu Page</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/01_dashboard_test_meal.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays updated Calorie Tracker details</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/02_dashboard_test_calorie_updated.png)
+
+</details>
+
+<details>
+<summary>Click to expand - Displays updated Calorie Tracker details when User changes/removes their Meal Selection</summary>
+
+![Production Testing - Dashboard](./docs/part-b/Testing/production/dashboard/02_dashboard_test_calorie_updated_lessmeals.png)
+
+</details>
+
+
+### Terms & Conditions Page
+<details> 
+<summary>Click to expand - Terms & Conditions Page renders successfully</summary>
+
+![Production Testing - Terms & Conditions](./docs/part-b/Testing/production/t_a_c/01_tac_test.png)
+
+</details>
+
+# Wireframes
+
+These are the high fidelity/complete wireframes of the website in Desktop, Tablet & Mobile View. Our styling and design concepts have changed from what we initially planned. We have changed the theme to be minimilistic but still show a clean and professional aesthetic. Although we were not able to implement the pages such as Subscription and Payment, we will implement this in the future to ensure we have a completed API from the initial plan.
+
+### Home Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Homepage.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Home.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Home_1.png)
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Home_2.png)
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Home_3.png)
+
+</details>
+
+### Get Started Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Getstarted.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Get_Started.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Get_Started.png)
+
+</details>
+
+### Menu Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Menu.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Menu.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Menu_1.png)
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Menu_2.png)
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Menu_3.png)
+
+</details>
+
+### Meal Detail Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Mealdetail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Menu_Detail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Menu_Detail.png)
+
+</details>
+
+### Add New Meal Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_AddNewMeal.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Menu_Add.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Menu_Add.png)
+
+</details>
+
+### About Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_About.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_About.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_About_1.png)
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_About_2.png)
+
+</details>
+
+### Blog Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Blog.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Blog.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Blog.png)
+
+</details>
+
+### Blog Detail Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_BlogDetail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Blog_Detail.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Blog_Detail.png)
+
+</details>
+
+### Add New Blog Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_AddNewBlog.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Blog_Add.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Blog_Add.png)
+
+</details>
+
+### Contact Us Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Contact.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Contact.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Contact.png)
+
+</details>
+
+### Terms & Conditions Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_TAC.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Terms_And_Conditions.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Terms_And_Conditions.png)
+
+</details>
+
+### Login Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Login.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Login.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Login.png)
+
+</details>
+
+### Forgot Password Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Resetpw.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Forgot_Password_1.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Forgot_Password_1.png)
+
+</details>
+
+### Sign Up Page
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Signup.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Sign_Up.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Sign_Up.png)
+
+</details>
+
+### Dashboard - Personal Details
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Dashboard_details.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Dashboard_Personal_Details.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Dashboard_Personal_Details.png)
+
+</details>
+
+### Dashboard - Calorie Tracker
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Dashboard_Calorie.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Dashboard_Calorie_Tracker.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Dashboard_Calorie_Tracker.png)
+
+</details>
+
+### Dashboard - Current Meals
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Dashboard_Meal.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Dashboard_Current_Meals.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Dashboard_Current_Meals.png)
+
+</details>
+
+### Dashboard - Change Password
+
+<details>
+<summary>Click to expand - For Desktop View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Desktop/Desktop_Dashboard_PW.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Tablet View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Tablet/Tablet_Dashboard_Change_Password.png)
+
+</details>
+
+<details>
+<summary>Click to expand - For Mobile View</summary>
+
+![Wireframes](./docs/part-b/Wireframes/Mobile/Mobile_Dashboard_Change_Password.png)
+
+</details>
+
 # Project Management
 
 Trello has been used as the primary project management tool to track progress and ensure deadlines have been met. A structured board has been established with lists representing different project phases:
